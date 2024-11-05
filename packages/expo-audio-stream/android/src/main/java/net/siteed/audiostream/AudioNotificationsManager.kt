@@ -42,7 +42,7 @@ class AudioNotificationManager private constructor(context: Context) {
     private val waveformRenderer = WaveformRenderer()
 
     companion object {
-        private const val WAVEFORM_UPDATE_INTERVAL = 100L
+        private const val WAVEFORM_UPDATE_INTERVAL = 10L
         private const val UPDATE_INTERVAL = 1000L
 
         @Volatile
